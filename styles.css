@@ -721,6 +721,14 @@ a.contact-method:hover {
 }
 
 @media (max-width: 768px) {
+    .section-padding {
+        padding: 50px 0;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+    
     .nav {
         position: absolute;
         top: 80px;
@@ -754,7 +762,39 @@ a.contact-method:hover {
         font-size: 2rem;
     }
     
+    .contact-form {
+        padding: 25px;
+    }
+    
     .footer-container {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .slide-content h2 {
+        font-size: 1.6rem;
+    }
+    
+    .slide-content p {
+        font-size: 1rem;
+    }
+    
+    .slider-controls {
+        padding: 0 15px;
+    }
+    
+    .slider-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+    }
+    
+    .intro-card {
+        padding: 30px 20px;
+    }
+    
+    .product-img {
+        height: 200px;
     }
 }
